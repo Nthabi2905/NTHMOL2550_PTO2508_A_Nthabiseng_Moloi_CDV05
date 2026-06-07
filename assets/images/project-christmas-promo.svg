@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Christmas Promo web page preview">
+  <defs>
+    <linearGradient id="night" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#night)"/>
+  <circle cx="520" cy="60" r="28" fill="#fef08a" opacity="0.9"/>
+  <polygon points="320,72 220,320 420,320" fill="#166534"/>
+  <polygon points="320,110 245,290 395,290" fill="#15803d"/>
+  <polygon points="320,148 270,260 370,260" fill="#22c55e"/>
+  <rect x="305" y="320" width="30" height="36" fill="#78350f"/>
+  <circle cx="280" cy="180" r="6" fill="#ef4444"/>
+  <circle cx="360" cy="210" r="6" fill="#eab308"/>
+  <circle cx="300" cy="240" r="6" fill="#3b82f6"/>
+  <circle cx="340" cy="160" r="6" fill="#a855f7"/>
+  <text x="320" y="382" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="14">Christmas Promo</text>
+</svg>

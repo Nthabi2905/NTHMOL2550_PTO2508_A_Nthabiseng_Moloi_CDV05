@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Space Education Hub application preview">
+  <defs>
+    <linearGradient id="space" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#space)"/>
+  <circle cx="80" cy="70" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="540" cy="50" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="480" cy="120" r="2" fill="#ffffff" opacity="0.6"/>
+  <circle cx="120" cy="140" r="2" fill="#ffffff" opacity="0.6"/>
+  <rect x="100" y="48" width="440" height="304" rx="18" fill="#ffffff" opacity="0.96"/>
+  <rect x="128" y="76" width="180" height="18" rx="6" fill="#312e81"/>
+  <rect x="128" y="112" width="280" height="10" rx="5" fill="#64748b"/>
+  <rect x="128" y="148" width="384" height="72" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <rect x="148" y="168" width="120" height="10" rx="5" fill="#4338ca"/>
+  <rect x="148" y="188" width="220" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="128" y="236" width="186" height="88" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <rect x="148" y="256" width="90" height="10" rx="5" fill="#15803d"/>
+  <rect x="148" y="278" width="140" height="22" rx="6" fill="#16a34a"/>
+  <rect x="326" y="236" width="186" height="88" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <rect x="346" y="256" width="90" height="10" rx="5" fill="#1d4ed8"/>
+  <rect x="346" y="278" width="140" height="22" rx="6" fill="#2563eb"/>
+  <text x="320" y="382" text-anchor="middle" fill="#c7d2fe" font-family="Segoe UI, sans-serif" font-size="14">Space Education Hub</text>
+</svg>

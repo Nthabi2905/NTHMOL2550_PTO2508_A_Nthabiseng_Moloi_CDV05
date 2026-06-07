@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nthabiseng Moloi — aspiring software developer, educator, and science communicator based in Cape Town.">
+  <meta name="keywords" content="Nthabiseng Moloi, web developer, portfolio, HTML, CSS, JavaScript, EdTech, STEM">
+  <meta name="author" content="Nthabiseng Moloi">
+  <meta property="og:title" content="Nthabiseng Moloi | Developer Portfolio">
+  <meta property="og:description" content="Bridging science, technology, and education through thoughtful web projects.">
+  <meta property="og:type" content="website">
+  <title>Nthabiseng Moloi | Developer Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Skip link improves keyboard navigation for screen reader users -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Site header with primary navigation -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Nthabiseng Moloi — back to top">NM<span class="logo-accent">.</span></a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero section: introduction and call to action -->
+    <section class="hero section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Aspiring Software Developer</p>
+          <h1 id="hero-heading">Hi, I&apos;m <span class="text-accent">Nthabiseng</span>.</h1>
+          <p class="hero-text">
+            I am an educator and science communicator building web-based solutions that make
+            STEM education more interactive, inclusive, and accessible for learners across Africa.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-card">
+            <div class="code-card-header">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code>&lt;developer&gt;
+  &lt;name&gt;Nthabiseng&lt;/name&gt;
+  &lt;focus&gt;Front-end&lt;/focus&gt;
+  &lt;passion&gt;EdTech &amp; STEM&lt;/passion&gt;
+&lt;/developer&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container narrow">
+        <h2 id="about-heading">About Me</h2>
+        <p>
+          I am an educator and science engagement specialist turned aspiring software developer,
+          passionate about bridging the gap between education and technology. With over five years
+          of experience leading STEM programmes, from managing outreach at SANSA to directing
+          academic initiatives at Somerset College, I have built a career on empowering learners
+          through hands-on science and coding experiences.
+        </p>
+        <p>
+          I am currently studying Frontend Software Development at CodeSpace Academy in Cape Town.
+          My focus is on creating clean, responsive websites using HTML, CSS, and JavaScript,
+          with a growing interest in building scalable EdTech solutions for education access in Africa.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading">Skills</h2>
+        <p class="section-intro">Technologies and strengths I bring to every project.</p>
+
+        <ul class="skills-grid">
+          <li class="skill-card">
+            <h3>Front-end</h3>
+            <p>HTML5, CSS3, responsive layouts, semantic markup, and accessibility basics</p>
+          </li>
+          <li class="skill-card">
+            <h3>Learning Next</h3>
+            <p>JavaScript, React, and component-based UI development</p>
+          </li>
+          <li class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, and browser developer tools</p>
+          </li>
+          <li class="skill-card">
+            <h3>Education</h3>
+            <p>Curriculum design, coding and robotics education, and science communication</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading">Featured Projects</h2>
+        <p class="section-intro">
+          A selection of work from my CodeSpace journey and hackathon experience.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <a class="project-image-link" href="https://github.com/Nthabi2905/christmas-promo" target="_blank" rel="noopener noreferrer">
+              <img
+                src="assets/images/project-christmas-promo.svg"
+                alt="Preview of the Christmas Promo page with a festive SVG Christmas tree"
+                width="640"
+                height="400"
+                loading="lazy"
+              >
+            </a>
+            <div class="project-body">
+              <h3>Christmas Promo</h3>
+              <p>
+                A festive Christmas-themed web page featuring a beautifully designed SVG Christmas
+                tree created entirely with HTML and CSS. This project strengthened my understanding
+                of layout, colour, and creative styling without relying on images.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SVG</li>
+              </ul>
+              <a class="project-link" href="https://github.com/Nthabi2905/christmas-promo" target="_blank" rel="noopener noreferrer">
+                View Repository
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <a class="project-image-link" href="https://github.com/Nthabi2905/space-education-hub" target="_blank" rel="noopener noreferrer">
+              <img
+                src="assets/images/project-space-education-hub.svg"
+                alt="Preview of the Space Education Hub STEM outreach application"
+                width="640"
+                height="400"
+                loading="lazy"
+              >
+            </a>
+            <div class="project-body">
+              <h3>Space Education Hub</h3>
+              <p>
+                A web-based solution developed during the KPN x CodeSpace Hackathon to improve
+                STEM outreach coordination. The project reached the finals and reflects my passion
+                for making science education more accessible through technology.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>TypeScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <a class="project-link" href="https://github.com/Nthabi2905/space-education-hub" target="_blank" rel="noopener noreferrer">
+                View Repository
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-heading">
+      <div class="container narrow">
+        <h2 id="contact-heading">Contact</h2>
+        <p class="section-intro">
+          Interested in collaborating or have a question? I would love to hear from you.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:lebakanthabiseng08@gmail.com">lebakanthabiseng08@gmail.com</a>
+          <a href="https://github.com/Nthabi2905" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/nthabisengmoloi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Nthabiseng Moloi. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
